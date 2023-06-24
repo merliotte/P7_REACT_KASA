@@ -1,0 +1,27 @@
+.lmj-ContainerCard{
+    display: flex;
+    background: #f7f7f7;
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.lmj-ContainerCard-image{
+    display: flex;
+    padding: 50px;
+    gap: 50px 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .lmj-ContainerCard{
+    }
+}
+
+@media only screen and (min-width: 992px) { 
+    .lmj-ContainerCard{
+    }
+}
+@media only screen and (min-width: 768px) {
+    .lmj-ContainerCard{
+    }
+}

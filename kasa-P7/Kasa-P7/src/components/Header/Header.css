@@ -1,0 +1,20 @@
+.lmj-logo-navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.lmj-logo-navBar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.lmj-logo-navBar a {
+    color: #FE6767;
+}
+
+.lmj-logo-navBar a:hover {
+    text-decoration: underline;
+}

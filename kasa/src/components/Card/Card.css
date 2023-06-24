@@ -1,0 +1,17 @@
+.lmj-Card{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .lmj-Card-Image{
+    position: relative;
+    align-items: center;
+    width: 120%;
+ }
+ .lmj-Card-Image-Text{
+    position: absolute;
+    margin: 300px 0px 0px 30px;
+    font-size: 24px;
+    color: white;
+    font-size: medium;
+ }
