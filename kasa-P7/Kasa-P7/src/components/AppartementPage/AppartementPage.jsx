@@ -2,7 +2,6 @@ import "./AppartementPage.css"
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-import AppartementInformation from "./AppartementInformation";
 import AppartementHeader from "./AppartementHeader";
 
 function AppartementPage() {
@@ -33,12 +32,9 @@ function AppartementPage() {
                 <img src={selectedFlat.cover} className="lmj-appartement-page-image" alt="Photo d'un appartement" ></img>
             </div>
             <div>
-            <AppartementHeader selectedFlat = {selectedFlat} />                
-
-        </div>
-        <div>
-            <AppartementInformation  />
-        </div>
+                <AppartementHeader selectedFlat = {selectedFlat} />                
+            </div>
+       
         </div>
     )
 }

@@ -1,5 +1,8 @@
-import React from 'react';
 import { useState } from "react";
+import "./Collapse.css"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 
 const angleDown = <FontAwesomeIcon icon={faAngleDown} />
 const angleUp = <FontAwesomeIcon icon={faAngleUp} />
