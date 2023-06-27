@@ -9,12 +9,12 @@ const RatingScale = (props) => {
     const range = [1, 2, 3, 4, 5]
 
     return (
-        <div>
+        <div >
             {range.map((rangeElem) =>
                 (scaleValue >= rangeElem ? 
-                    <img src={Star} alt="Etoiles"></img>
+                    <img key={rangeElem} src={Star} alt="Etoiles"></img>
                     :
-                    <img src={EmptyStar} alt="Etoiles Vides"></img>
+                    <img key={rangeElem} src={EmptyStar} alt="Etoiles Vides"></img>
             ))}
         </div>
     )
