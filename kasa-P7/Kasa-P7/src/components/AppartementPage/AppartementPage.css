@@ -16,7 +16,7 @@
 }
 
 .lmj-appartement-title-subtitle{
-    font-weight: 100;
+    font-weight: 530;
     font-size: medium;
     margin-top: 5px;
 }
@@ -39,11 +39,11 @@
 .lmj-appartement-title-subtitle-description-coponent{
     background-color: var(--main-color) ;
     color: white;
-    width: 80px;
+    width: 130px;
     border-radius: 8px;
     text-align: center;
-    height: fit-content;
-    padding: 3px;
+    height: 22px;
+    padding-top: 8px;
 }
 
 .lmj-appartement-host{
@@ -59,6 +59,7 @@
 
 .lmj-appartement-host-description {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 15px;
 }

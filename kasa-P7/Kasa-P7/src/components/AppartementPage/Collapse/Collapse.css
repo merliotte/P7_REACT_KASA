@@ -36,6 +36,7 @@
     width: 100%;
     max-width: 500px;
 }
+
 .collapse_header {
     width: 100%;
     max-width: 600px;
@@ -63,15 +64,16 @@
 }
 
 .collapse_content {
-    width: 329px;
+    width: 467px;
     white-space: normal;
     position: relative;
     z-index: -1;
     padding: 0.8rem 1rem;
     margin-top: -1.2rem;
+    background-color: #e3e3e32a;
     margin-bottom: 1rem;
     border-radius: 0 0 0.3rem 0.3rem;
     font-size: 16px;
     line-height: 23px;
-    animation: slide 1s ease-in;
+    animation: slide 1.3s ease-in;
 }

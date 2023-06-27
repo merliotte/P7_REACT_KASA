@@ -2,7 +2,8 @@ import "./AppartementPage.css"
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-import AppartementHeader from "./AppartementHeader";
+import AppartementHeader from "./AppartementHeader/AppartementHeader";
+import ImageBanner from "./ImageBanner/ImageBanner";
 
 function AppartementPage() {
 
@@ -29,7 +30,7 @@ function AppartementPage() {
     return (
         <div className="lmj-appartement-page">
             <div>
-                <img src={selectedFlat.cover} className="lmj-appartement-page-image" alt="Photo d'un appartement" ></img>
+                <ImageBanner  pictures={selectedFlat.pictures} />
             </div>
             <div>
                 <AppartementHeader selectedFlat = {selectedFlat} />                
