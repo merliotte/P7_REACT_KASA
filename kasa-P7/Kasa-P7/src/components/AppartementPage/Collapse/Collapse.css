@@ -20,24 +20,24 @@
 }
 
 @media(max-width: 768px) {
-    .collapse_content {
+    .lmg-collapse_content {
         animation: slide 2s ease-in-out;
     }
 }
 
-.page_collapses{
+.lmg-page_collapses{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.page_collapses_content{
+.lmg-page_collapses_content{
     display: flex;
     width: 100%;
     max-width: 500px;
 }
 
-.collapse_header {
+.lmg-collapse_header {
     width: 100%;
     max-width: 600px;
     height: fit-content;
@@ -52,18 +52,18 @@
     box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
     cursor: pointer;
 }
-.collapse_header_title {
+.lmg-collapse_header_title {
     padding: 0.4rem 0.5rem;
     margin: 0;
     font-size: 18px;
 }
 
-.collapse_header_icon {
+.lmg-collapse_header_icon {
     padding: 0.4rem 0.5rem;
     font-size: 20px;
 }
 
-.collapse_content {
+.lmg-collapse_content {
     width: 467px;
     white-space: normal;
     position: relative;

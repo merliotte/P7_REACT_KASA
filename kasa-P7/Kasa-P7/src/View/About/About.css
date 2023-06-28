@@ -1,0 +1,15 @@
+.lmg-about-page-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.lmg-about-page-container-collapse{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 500px;
+    
+}
+

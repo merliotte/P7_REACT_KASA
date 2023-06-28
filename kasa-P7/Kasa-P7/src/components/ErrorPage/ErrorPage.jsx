@@ -13,7 +13,7 @@ function ErrorPage() {
             <h2 className="lmj-errorPage-subtitle">
                 Oups! La page que vous demandez n'existe pas.
             </h2>
-            <NavLink title='Accueil' end to='/home' className="error_page_link">Retourner sur la page d'accueil</NavLink>
+            <NavLink title='Accueil' end to='/' className="lmg-error-page-link">Retourner sur la page d'accueil</NavLink>
         </section>
     )
 }

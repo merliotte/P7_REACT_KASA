@@ -1,5 +1,6 @@
 import './Banner.css'
 
+
 function Banner(props) {
     return (
         <div className='lmj-Banner'>
@@ -8,7 +9,7 @@ function Banner(props) {
             <h2 className="lmj-Banner-text" >{props.textBackground}
             </h2>
         </div>
-    )
+        )
 }
 
 export default Banner

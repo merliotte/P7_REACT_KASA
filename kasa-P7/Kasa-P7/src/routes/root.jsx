@@ -11,6 +11,7 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import AppartementPage from "../components/AppartementPage/AppartementPage";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
+import AboutPage from "../View/About/AboutPage";
 
 const HeaderFooterLayout = () => {
 return <>
@@ -36,8 +37,8 @@ const router = createBrowserRouter([
           element: <AppartementPage />,
         },
         {
-          path: "/about",
-          element: <h1> A propos</h1>
+          path: "/aboutPage",
+          element: <AboutPage />
         },
       ]
     },
