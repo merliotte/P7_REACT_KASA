@@ -8,7 +8,7 @@ function Card (props) {
         appartementId: props.id
       }}>
         <div className="lmj-Card">
-              <img src= {props.imageCard} alt=" Image Appartement " className="lmj-Card-Image"> 
+              <img src= {props.imageCard} alt="Image Appartement" className="lmj-Card-Image"> 
               </img>
               <p className="lmj-Card-Image-Text">{props.textCard}
               </p>

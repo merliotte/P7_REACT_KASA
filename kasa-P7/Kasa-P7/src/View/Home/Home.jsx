@@ -4,7 +4,6 @@ import BannerBackground from  "../../assets/background-banner.png"
 
 import ContainerCard from "../../components/ContainerCard/ContainerCard";
 
-
 function Home() {
 
     return (

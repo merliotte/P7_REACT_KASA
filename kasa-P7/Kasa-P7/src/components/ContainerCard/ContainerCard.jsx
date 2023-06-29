@@ -1,7 +1,5 @@
-
 import './ContainerCard.css'
 import Card from "../Card/Card";
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 
@@ -21,14 +19,14 @@ function ContainerCard() {
         <div className="lmj-ContainerCard">
             <ul>
                 <li className='lmj-ContainerCard-image'>
-                     {appartements.map((appartement) => ( 
-                        
-                       <Card 
+                     {appartements.map((appartement,index) => ( 
+                     
+                       <Card
+                            key={index}
                             textCard={appartement.title}
                             imageCard = {appartement.cover}
                             id={appartement.id}
                          />
-                    
                     ))}
                 </li>
             </ul>

@@ -28,14 +28,14 @@ function AppartementHeader({selectedFlat}) {
                         scaleValue= {selectedFlat.rating}/>
                 </div>
             </div>
-             <article className='page_collapses'>
-                <div className='page_collapses_content'>
+             <article className='lmg-page_collapses'>
+                <div className='lmg-page_collapses_content'>
                     <Collapse
                         title='Description'
                         content={selectedFlat.description}
                     />
                 </div>
-                <div className='page_collapses_content'>
+                <div className='lmg-page_collapses_content'>
                     <Collapse
                         title='Équipements'
                         content={selectedFlat.equipments.map((equipment, i) => (
