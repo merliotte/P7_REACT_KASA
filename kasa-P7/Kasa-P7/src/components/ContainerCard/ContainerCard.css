@@ -8,6 +8,7 @@
 
 .lmj-ContainerCard-image{
     display: flex;
+    justify-content: center;
     padding: 50px;
     gap: 50px 55px;
 }
@@ -17,11 +18,17 @@
     }
 }
 
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 320px) and (max-width: 523px) { 
     .lmj-ContainerCard{
+        margin-top: 15px;
+    }
+    
+    .lmj-ContainerCard-image{
+        padding: 20px;
+        display: grid;
+        padding: 15px;
+        gap: 20px;
     }
 }
-@media only screen and (min-width: 768px) {
-    .lmj-ContainerCard{
-    }
-}
+
+
