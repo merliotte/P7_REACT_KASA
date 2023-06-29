@@ -31,4 +31,11 @@
        width: 100%;
        height: 208px;
     }
+       .lmj-Card-Image-Text {
+          position: absolute;
+          margin: 161px 0px 0px 30px;
+          font-size: 24px;
+          color: white;
+          font-size: medium;
+       }
    }
