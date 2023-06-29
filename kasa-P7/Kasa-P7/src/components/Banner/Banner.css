@@ -28,7 +28,15 @@
         align-items: start;
         margin-top: 15px;
         }
-                .lmj-Banner-text {
-                    width: 201px;
-                }
+
+        .lmj-Banner-image{
+            height: 130px;
+        }
+                 .lmj-Banner-text {
+                     position: absolute;
+                     top: 60%;
+                     left: 22%;
+                     width: 199px;
+                     white-space:nowrap ;
+                 }
 }
