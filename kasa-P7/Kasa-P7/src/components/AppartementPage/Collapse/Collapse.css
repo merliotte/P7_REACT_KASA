@@ -19,11 +19,7 @@
     }
 }
 
-@media(max-width: 768px) {
-    .lmg-collapse_content {
-        animation: slide 2s ease-in-out;
-    }
-}
+
 
 .lmg-page_collapses{
     display: flex;
@@ -56,6 +52,7 @@
     padding: 0.4rem 0.5rem;
     margin: 0;
     font-size: 18px;
+    font-weight: 100;
 }
 
 .lmg-collapse_header_icon {
@@ -76,4 +73,18 @@
     font-size: 16px;
     line-height: 23px;
     animation: slide 1.3s ease-in;
+}
+
+@media screen and (min-width: 320px) and (max-width: 718px) {
+    .lmg-page_collapses {
+        position: relative;
+        top: 47px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .lmg-collapse_content {
+        animation: slide 2s ease-in-out;
+    }
 }

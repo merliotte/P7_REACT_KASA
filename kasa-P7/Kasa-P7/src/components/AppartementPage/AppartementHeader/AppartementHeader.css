@@ -70,12 +70,35 @@
 .lmj-appartement-title-h1 h1{
     font-weight: 100;
 }
-
-@media screen and (min-width: 320px) and (max-width: 991px) {
+@media screen and (min-width: 419px) and (max-width: 689px) {
     .lmj-appartement-host-description {
-        position: absolute;
-        top: 59%;
-        left: 80%;
+            position: relative;
+            top: 122px;
+            left: 75%;
+            margin: 0;
+        }
+                .lmj-appartement-title-subtitle-description {
+                    position: relative;
+                    top: -46px;
+                    margin: 0;
+                }
+}
+
+@media screen and (min-width: 320px) and (max-width: 418px) {
+    .lmj-appartement-host-description {
+        position: relative;
+        top: 109px;
+        left: 68%;
+        margin: 0;
+    }
+    .lmj-appartement-title-subtitle-description{
+        position: relative;
+        top: -46px;
+        margin: 0;
+    }
+
+    .lmj-appartement-title-h1{
+
     }
 }
 

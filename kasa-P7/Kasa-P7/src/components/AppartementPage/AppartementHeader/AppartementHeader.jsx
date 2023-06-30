@@ -16,9 +16,9 @@ function AppartementHeader({selectedFlat}) {
                 <h2 className="lmj-appartement-title-subtitle">{selectedFlat.location}</h2>
                 </div>
                 <div className="lmj-appartement-host-description">
+                            <h3>{fisrtName} <br /> {lastName}</h3>
                             <img src={selectedFlat.host.picture} className="lmj-appartement-host-description-image">
                             </img>
-                            <h3>{fisrtName} <br /> {lastName}</h3>
                         </div>
             </div>
             <div className="lmj-appartement-title-subtitle-description" >
