@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
-import EmptyStar from "../../../assets/star-solid.svg"
-import Star from "../../../assets/star-regular.svg"
+import EmptyStar from "../../../assets/star-regular.svg"
 
+import "./Rating.css"
 
+const star = <FontAwesomeIcon icon={faStar} style={{color: "#fe6767",}} />;
 
 const RatingScale = (props) => {
 
@@ -11,13 +14,13 @@ const RatingScale = (props) => {
     const range = [1, 2, 3, 4, 5]
 
     return (
-        <div >
+        <div className='lmg-Rating-Stars' >
             {range.map((rangeElem) =>
                 (scaleValue >= rangeElem ? 
-                    <img key={rangeElem} src={Star} alt="Etoiles"></img>
+                    <div> {star} </div>  
                     :
-                    <img key={rangeElem} src={EmptyStar} alt="Etoiles Vides"></img>
-            ))}
+                    <img src={EmptyStar} alt='star vide' className='lmg-Rating-Stars-Empty'></img>
+                ))};
         </div>
     )
 }

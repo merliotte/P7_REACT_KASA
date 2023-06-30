@@ -48,7 +48,7 @@
 
 .lmj-appartement-host{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 15px;
 }
 

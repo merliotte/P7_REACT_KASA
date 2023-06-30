@@ -8,7 +8,7 @@ function Header () {
     return (
         <header  className='lmj-logo-navBar'>
             <div>
-                <NavLink ><img src= {logoKasa} alt ="logo Kasa"></img></NavLink>
+                <NavLink to="/"><img src= {logoKasa} alt ="logo Kasa"></img></NavLink>
             </div>
             <nav>
                 <ul>

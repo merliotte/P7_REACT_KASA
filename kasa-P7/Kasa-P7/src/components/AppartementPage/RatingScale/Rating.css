@@ -1,0 +1,10 @@
+.lmg-Rating-Stars{
+    display: flex ;
+    align-items: center;
+}
+
+.lmg-Rating-Stars-Empty{
+    width: 16px;
+    height: 20px;
+    object-fit: contain;
+}
