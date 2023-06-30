@@ -1,5 +1,7 @@
-import EmptyStar from "../../../assets/emptyStar.svg"
-import Star from "../../../assets/star-rate.svg"
+
+import EmptyStar from "../../../assets/star-solid.svg"
+import Star from "../../../assets/star-regular.svg"
+
 
 
 const RatingScale = (props) => {

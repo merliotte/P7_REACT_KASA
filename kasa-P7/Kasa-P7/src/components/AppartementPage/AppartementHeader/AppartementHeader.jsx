@@ -1,17 +1,26 @@
 import RatingScale from "../RatingScale/RatingScale"
 import Collapse from "../Collapse/Collapse";
+import "./AppartementHeader.css"
 
 function AppartementHeader({selectedFlat}) {
 
     const {name} = selectedFlat.host;
     const [fisrtName, lastName] = name.split(' ');
 
-
     return (
         
         <div className="lmj-appartement-title">
-            <h1> {selectedFlat.title}</h1>
-            <h2 className="lmj-appartement-title-subtitle"> {selectedFlat.location}</h2>
+            <div className="lmj-appartement-title-h1">
+                <div> 
+                <h1> {selectedFlat.title}</h1>
+                <h2 className="lmj-appartement-title-subtitle">{selectedFlat.location}</h2>
+                </div>
+                <div className="lmj-appartement-host-description">
+                            <img src={selectedFlat.host.picture} className="lmj-appartement-host-description-image">
+                            </img>
+                            <h3>{fisrtName} <br /> {lastName}</h3>
+                        </div>
+            </div>
             <div className="lmj-appartement-title-subtitle-description" >
                 <div className="lmj-appartement-title-subtitle-description-container">
                     {selectedFlat.tags.map((tag) => (
@@ -19,11 +28,7 @@ function AppartementHeader({selectedFlat}) {
                     ))}
                 </div>
                 <div className="lmj-appartement-host">
-                    <div className="lmj-appartement-host-description">
-                        <img src={selectedFlat.host.picture} className="lmj-appartement-host-description-image">
-                        </img>
-                        <h3>{fisrtName} <br /> {lastName}</h3>
-                    </div>
+                    
                     <RatingScale 
                         scaleValue= {selectedFlat.rating}/>
                 </div>
