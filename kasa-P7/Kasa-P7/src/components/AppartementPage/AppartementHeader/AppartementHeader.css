@@ -1,3 +1,61 @@
+.lmj-appartement-title {
+    margin-top: 30px;
+    font-size: small;
+}
+
+.lmj-appartement-title-subtitle {
+    font-weight: 530;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.lmj-appartement-title-subtitle-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.lmj-appartement-title-subtitle-description-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.lmj-appartement-title-subtitle-description-coponent {
+    background-color: var(--main-color);
+    color: white;
+    width: 130px;
+    border-radius: 8px;
+    text-align: center;
+    height: 22px;
+    padding-top: 8px;
+}
+
+.lmj-appartement-host {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.lmj-appartement-host-note {
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.lmj-appartement-host-description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.lmj-appartement-host-description-image {
+    width: 50px;
+    border-radius: 25px;
+}
 .lmj-appartement-title-h1{
     display: flex;
     justify-content: space-between;
