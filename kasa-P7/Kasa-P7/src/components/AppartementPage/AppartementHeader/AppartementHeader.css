@@ -50,13 +50,41 @@
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
+    font-weight: 100;
+}
+
+.lmj-appartement-host-description h3 {
+    font-weight: 100;
 }
 
 .lmj-appartement-host-description-image {
     width: 50px;
     border-radius: 25px;
 }
-.lmj-appartement-title-h1{
+
+.lmj-appartement-title-h1 {
     display: flex;
     justify-content: space-between;
+}
+
+.lmj-appartement-title-h1 h1{
+    font-weight: 100;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .lmj-appartement-host-description {
+        position: absolute;
+        top: 59%;
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {}
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    body {}
 }

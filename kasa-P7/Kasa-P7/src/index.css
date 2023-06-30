@@ -20,7 +20,9 @@ body {
   max-width: 1440px;
   min-height: 100vh;
   position: relative;
-  color: #FE6767
+  color: #FE6767;
+  padding: 0px 50px 0px 50px;
+  
 }
 
 code {
@@ -28,27 +30,8 @@ code {
     monospace;
 }
 
-
-
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
-  body {
-    max-width: 688px;
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  body{
+      padding: 0px 0px 0px 0px;
   }
 }
-
-@media screen and (min-width: 900px) {
-  body {
-    max-width: 1040px;
-  }
-}
-
-
-
-@media screen and (min-width: 1440px) {
-  body {
-    max-width: 1440px;
-  }
-}
-
-

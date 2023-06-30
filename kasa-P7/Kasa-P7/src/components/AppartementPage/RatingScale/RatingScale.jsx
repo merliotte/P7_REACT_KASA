@@ -20,7 +20,7 @@ const RatingScale = (props) => {
                     <div> {star} </div>  
                     :
                     <img src={EmptyStar} alt='star vide' className='lmg-Rating-Stars-Empty'></img>
-                ))};
+                ))}
         </div>
     )
 }
