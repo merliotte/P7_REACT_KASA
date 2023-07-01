@@ -20,7 +20,8 @@
 
 @media only screen and (min-width: 320px) and (max-width: 523px) { 
     .lmj-ContainerCard{
-        margin-top: 15px;
+        margin-top: 0px;
+        background-color: transparent;
     }
     
     .lmj-ContainerCard-image{

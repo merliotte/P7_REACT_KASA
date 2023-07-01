@@ -26,8 +26,10 @@
     .lmj-Banner {
         display: flex;
         margin-top: 15px;
+        justify-content: center;
+        
         }
-
+    
         .lmj-Banner-image{
             display: flex;
             height: 130px;
@@ -38,4 +40,8 @@
                     width: 190px;
                     left: 28%;
                  }
+
+                    .lmj-Banner-container{
+                        padding: 15px;
+                    }
 }
