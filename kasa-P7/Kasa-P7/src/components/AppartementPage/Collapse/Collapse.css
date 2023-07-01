@@ -19,12 +19,10 @@
     }
 }
 
-
-
 .lmg-page_collapses{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .lmg-page_collapses_content{
@@ -80,6 +78,7 @@
         position: relative;
         top: 47px;
         justify-content: center;
+        margin-top: 0px;
     }
    
 }
