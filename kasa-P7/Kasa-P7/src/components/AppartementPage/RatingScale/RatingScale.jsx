@@ -17,9 +17,9 @@ const RatingScale = (props) => {
         <div className='lmg-Rating-Stars' >
             {range.map((rangeElem) =>
                 (scaleValue >= rangeElem ? 
-                    <div> {star} </div>  
+                    <div key={rangeElem}> {star} </div>  
                     :
-                    <img src={EmptyStar} alt='star vide' className='lmg-Rating-Stars-Empty'></img>
+                    <img key={rangeElem} src={EmptyStar} alt='star vide' className='lmg-Rating-Stars-Empty'></img>
                 ))}
         </div>
     )

@@ -11,14 +11,22 @@ function AppartementPage() {
     const [selectedFlat, setSelectedFlat] = useState(null);
     
 
-    useEffect(fetchAppartementData, []);
+    useEffect(() => {
+        console.log("component was mounted");
+    
+        fetchAppartementData();
+
+        return() => {
+            console.log("component was umonted, we cancel the fetch");
+        };
+
+    }, []);
 
      function fetchAppartementData() {
         fetch("../src/datas/datas.json")
         .then((res) => res.json())
         .then((apparts) => { 
             const selectedFlat = apparts.find((flat) => flat.id === location.state.appartementId); 
-            console.log('selectedFlat', selectedFlat)
             setSelectedFlat(selectedFlat);
         })
         .catch(console.error);
