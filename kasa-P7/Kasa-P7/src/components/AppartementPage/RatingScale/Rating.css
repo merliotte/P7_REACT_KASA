@@ -1,24 +1,20 @@
 .lmg-Rating-Stars{
     display: flex ;
     align-items: center;
+    gap: 12px;
 }
 
 .lmg-Rating-Stars-Empty{
-    width: 16px;
-    height: 20px;
+    width: 18px;
+    height: 23px;
     object-fit: contain;
 }
 
-@media screen and (min-width: 320px) and (max-width: 502px) {
-    .lmg-Rating-Stars {
-        position: relative;
-    }
-}
-
-@media screen and (min-width: 510px) and (max-width: 700px) {
+@media screen and (min-width: 373px) and (max-width: 418px) {
     .lmg-Rating-Stars {
         position: relative;
         top: 50px;
-        right: 27rem;
+        right: 390%;
     }
 }
+

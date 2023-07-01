@@ -24,9 +24,15 @@
         margin-top: 10px;
     }
 
-    .lmj-logo-navBar img {
-        width: 138px;
+    .lmj-logo-navBar {
+        font-size: 13px;       
     }
 
+    .lmj-logo-navBar img {
+        width: 104px;
+    }
+    .lmj-logo-navBar ul{
+        gap: 10px;
+    }
 
 }

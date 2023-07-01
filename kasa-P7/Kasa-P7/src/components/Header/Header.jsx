@@ -12,8 +12,8 @@ function Header () {
             </div>
             <nav>
                 <ul>
-                    <NavLink to="/"><li>Accueil</li></NavLink>
-                    <NavLink to="aboutPage"><li> À Propos</li></NavLink>
+                    <NavLink to="/"><li>ACCEUIL</li></NavLink>
+                    <NavLink to="aboutPage"><li>A PROPROS</li></NavLink>
                 </ul>
             </nav>
         </header>

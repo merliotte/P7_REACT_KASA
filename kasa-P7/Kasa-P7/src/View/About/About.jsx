@@ -3,7 +3,7 @@ import Banner from "../../components/Banner/Banner"
 import AboutBackground from  "../../assets/about-background.png"
 import Collapse from "../../components/AppartementPage/Collapse/Collapse"
 
-function About({collaspe}) {
+function About() {
 
     return(
         <div className="lmg-about-page">

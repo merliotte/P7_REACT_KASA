@@ -29,19 +29,21 @@
         justify-content: center;
         
         }
-    
-        .lmj-Banner-image{
+            .lmj-Banner-image{
+                display: flex;
+                height: 130px;
+            }
+            
+            .lmj-Banner-text {
             display: flex;
-            height: 130px;
-        }
-                 .lmj-Banner-text {
-                    display: flex;
-                    text-align: start;
-                    width: 190px;
-                    left: 28%;
-                 }
-
-                    .lmj-Banner-container{
-                        padding: 15px;
-                    }
+            text-align: start;
+            width: 190px;
+            left: 42%;
+            }
+            .lmj-Banner-container{
+                padding: 15px;
+            }
+            .lmj-logo-navBar{
+                padding: 0px 21px 0px 21px;
+            }
 }

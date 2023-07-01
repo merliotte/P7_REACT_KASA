@@ -1,4 +1,6 @@
 .lmj-appartement-page{
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -24,4 +26,12 @@
     width: 400px;
     height: 25px;
     
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 419px) {
+    .lmj-appartement-page {
+        padding: 0px 10px 0px 10px;
+    }
 }

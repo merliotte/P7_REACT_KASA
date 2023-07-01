@@ -1,20 +1,25 @@
-.lmj-appartement-title {
-    margin-top: 30px;
+.lmj-appartement{
     font-size: small;
+}
+
+.lmj-appartement-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lmj-appartement-title-h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.lmj-appartement-title-h1 h1 {
+    font-weight: 100;
 }
 
 .lmj-appartement-title-subtitle {
     font-weight: 530;
     font-size: medium;
     margin-top: 5px;
-}
-
-.lmj-appartement-title-subtitle-description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px;
-    margin-top: 15px;
 }
 
 .lmj-appartement-title-subtitle-description-container {
@@ -34,23 +39,31 @@
     padding-top: 8px;
 }
 
+.lmj-appartement-host-description {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    font-weight: 100;
+}
+
 .lmj-appartement-host {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 15px;
 }
+
+.lmj-appartement-host-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+
 
 .lmj-appartement-host-note {
     margin-top: 15px;
     object-fit: cover;
-}
-
-.lmj-appartement-host-description {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    font-weight: 100;
 }
 
 .lmj-appartement-host-description h3 {
@@ -62,34 +75,24 @@
     border-radius: 25px;
 }
 
-.lmj-appartement-title-h1 {
-    display: flex;
-    justify-content: space-between;
+
+
+
+@media screen and (min-width: 340px) and (max-width: 418px) {
+
+.lmj-appartement-host-description {
+        position: relative;
+        top: 122px;
+        margin: 0;
+    }
 }
 
-.lmj-appartement-title-h1 h1{
-    font-weight: 100;
-}
-@media screen and (min-width: 419px) and (max-width: 689px) {
-    .lmj-appartement-host-description {
-            position: relative;
-            top: 67px;
-            left: 75%;
-            margin: 0;
-        }
-                .lmj-appartement-title-subtitle-description {
-                    position: relative;
-                    top: -46px;
-                    margin: 0;
-                }
-}
-
-@media screen and (min-width: 320px) and (max-width: 418px) {
+@media screen and (min-width: 320px) and (max-width: 340px) {
     .lmj-appartement-host-description {
         position: relative;
-        top: 109px;
-        left: 68%;
+        top: 61px;
         margin: 0;
+        left: 60%;
     }
     .lmj-appartement-title-subtitle-description{
         position: relative;
@@ -97,17 +100,12 @@
         margin: 0;
     }
 
-    .lmj-appartement-title-h1{
+    .lmj-appartement-title-subtitle-description-container{
+    }
 
+    .lmj-appartement-title{
+        margin-top: 5px;
+        padding: 15px;
     }
 }
 
-@media screen and (min-width: 900px) {
-    body {}
-}
-
-
-
-@media screen and (min-width: 1440px) {
-    body {}
-}

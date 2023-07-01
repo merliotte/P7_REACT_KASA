@@ -9,28 +9,30 @@ function AppartementHeader({selectedFlat}) {
 
     return (
         
-        <div className="lmj-appartement-title">
-            <div className="lmj-appartement-title-h1">
-                <div> 
-                <h1> {selectedFlat.title}</h1>
-                <h2 className="lmj-appartement-title-subtitle">{selectedFlat.location}</h2>
+        <div className="lmj-appartement">
+            <div className="lmj-appartement-container">
+                <div className="lmj-appartement-title-h1">
+                    <div> 
+                    <h1> {selectedFlat.title}</h1>
+                    <h2 className="lmj-appartement-title-subtitle">{selectedFlat.location}</h2>
+                    </div>
+                    <div className="lmj-appartement-title-subtitle-description-container">
+                        {selectedFlat.tags.map((tag) => (
+                            <p key ={tag} className="lmj-appartement-title-subtitle-description-coponent"> {tag} </p>
+                        ))}
+                    </div>
                 </div>
-                <div className="lmj-appartement-host-description">
+                <div className="lmj-appartement-host-description" >
+                    
+                    <div className="lmj-appartement-host">
+                        <div className="lmj-appartement-host-name">
                             <h3>{fisrtName} <br /> {lastName}</h3>
                             <img src={selectedFlat.host.picture} className="lmj-appartement-host-description-image">
                             </img>
                         </div>
-            </div>
-            <div className="lmj-appartement-title-subtitle-description" >
-                <div className="lmj-appartement-title-subtitle-description-container">
-                    {selectedFlat.tags.map((tag) => (
-                        <p key ={tag} className="lmj-appartement-title-subtitle-description-coponent"> {tag} </p>
-                    ))}
-                </div>
-                <div className="lmj-appartement-host">
-                    
-                    <RatingScale 
-                        scaleValue= {selectedFlat.rating}/>
+                        <RatingScale 
+                            scaleValue= {selectedFlat.rating}/>
+                    </div>
                 </div>
             </div>
              <article className='lmg-page_collapses'>
