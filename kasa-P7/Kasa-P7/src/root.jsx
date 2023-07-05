@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import AppartementPage from "./components/AppartementPage/AppartementPage";
+import AppartementPage from "./View/AppartementPage/AppartementPage";
 import ErrorPage from "./View/ErrorPage/ErrorPage";
 import AboutPage from "./View/About/AboutPage";
 import Home from "./View/Home/Home";

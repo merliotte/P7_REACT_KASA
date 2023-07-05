@@ -2,8 +2,8 @@ import "./AppartementPage.css"
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-import AppartementHeader from "./AppartementHeader/AppartementHeader";
-import ImageBanner from "./ImageBanner/ImageBanner";
+import AppartementHeader from "../../components/AppartementPage/AppartementHeader/AppartementHeader";
+import ImageBanner from "../../components/ImageBanner/ImageBanner";
 
 function AppartementPage() {
 
