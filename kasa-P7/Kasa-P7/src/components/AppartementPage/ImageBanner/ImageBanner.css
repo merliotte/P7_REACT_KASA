@@ -36,6 +36,11 @@
     color: white;
     font-size: 3rem;
     border: none;
+    opacity: 0;
+}
+
+.lmj-btn-previous:hover{
+    opacity: 1;
 }
 
 .lmj-btn-next {
@@ -49,6 +54,10 @@
     color: white;
     font-size: 3rem;
     border: none;
+    opacity: 0;
+}
+.lmj-btn-next:hover {
+    opacity: 1;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 523px) {
@@ -56,9 +65,5 @@
     .lmj-image-banner {
         margin-top: 20px;
         margin-bottom: 0;
-    }
-
-    .lmj-image-banner img{
-        
     }
 }
