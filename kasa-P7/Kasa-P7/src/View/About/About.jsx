@@ -1,7 +1,7 @@
 import "./About.css"
 import Banner from "../../components/Banner/Banner"
 import AboutBackground from  "../../assets/about-background.png"
-import Collapse from "../../components/AppartementPage/Collapse/Collapse"
+import Collapse from "../../components/Collapse/Collapse"
 
 function About() {
 

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
-import EmptyStar from "../../../assets/star-regular.svg"
+import EmptyStar from "../../assets/star-regular.svg"
 
 import "./Rating.css"
 
