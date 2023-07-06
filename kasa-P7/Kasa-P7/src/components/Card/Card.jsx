@@ -4,7 +4,7 @@ import "./Card.css"
 function Card (props) {
 
     return (
-      <Link to="/appartement" state={{
+      <Link to={`/appartement/${props.id}`} state={{
         appartementId: props.id
       }}>
         <div className="lmj-Card">

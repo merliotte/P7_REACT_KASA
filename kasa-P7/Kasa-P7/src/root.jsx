@@ -32,13 +32,12 @@ const router = createBrowserRouter([
       errorElement: <ErrorPage />,
     },
     {
-      path: "/appartement",
+      path: "/appartement/:appartementId",
       element: 
       <WrapperRoute>
         <AppartementPage />
       </WrapperRoute>,
-
-    },
+      },
     {
       path: "/aboutPage",
       element: 

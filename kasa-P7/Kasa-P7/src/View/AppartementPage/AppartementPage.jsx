@@ -5,6 +5,8 @@ import { useEffect, useState } from "react"
 import AppartementHeader from "../../components/AppartementHeader/AppartementHeader";
 import ImageBanner from "../../components/ImageBanner/ImageBanner";
 
+
+
 function AppartementPage() {
 
     const location = useLocation();
